@@ -1,0 +1,106 @@
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: #555252;
+     font-size: 15px;
+     line-height: 1.5;
+     padding: 0;
+     margin: 0;   
+}
+* {
+     box-sizing: border-box;
+}
+.container {
+     width: 520px;
+     height: auto;
+     margin: 100px auto;
+     background-color: #dad2d2;
+     border-radius: 20px;
+}
+.base {
+     width: 100%;
+     margin: 0;
+     overflow: hidden;
+     display: block;
+     float: none;
+}
+.block {
+     width: 135px;
+     padding: 5px 20px;
+     display: inline-block;
+     margin-left: 20px;
+     float: left;
+     
+}
+.enter h4 {
+  font-size: 26px;
+  text-align: center;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*font-weight: normal;
+  */margin-top: 25px;
+  font-size: 31px;
+  color: #4b084b;
+  font-weight: bolder;
+  /* text-decoration-thickness:5px;
+  text-decoration-style:solid;
+  -moz-text-decoration-style:solid;
+  text-transform:capitalize;
+  text-shadow: -1px -1px 1px #9b0b72; */
+}
+.title {
+     font-size: 20px;
+     text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: bold;
+     line-height: 0.5;
+     letter-spacing: 1.5px;
+     word-spacing: 2.7px;
+     color: #5b085b;
+}
+input[type="text"]{
+     width: 130px;
+     margin: auto;
+     outline: none;
+     min-height: 35px;
+     border: 2px solid #0d6936;
+     padding: 12px;
+     background-color: aliceblue;
+     border-radius: 9px;
+     color: black;
+     font-size: 17px;
+}
+input[type="text"]:focus {
+     background-color: #ffffff;
+     border: 2px solid #dede0d;
+     outline: none;
+}
+input[type="button"] {
+     width: 150px;
+     margin-left: 163px;
+     margin-top: 40px;
+     /* align-items: center; */
+     outline: none;
+     border: none;
+     border-radius: 89px;
+     background-color:#5b085b;
+     color: #ffffff;
+     padding: 14px 16px;
+     text-align: center;
+     font-size: 16px;
+}
+input[type="button"]:hover {
+     background-color: #a413c8;
+}
+#age {
+     display: block;
+     margin: 10px;
+     margin-top: 35px;
+     padding: 10px;
+     padding-bottom: 20px;
+     overflow: hidden;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 18px;
+     font-weight: normal;
+     line-height: 1.5;
+     word-spacing: 2.7px;
+     color: #4b084b;
+}
